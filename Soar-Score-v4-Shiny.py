@@ -7,7 +7,7 @@ from shiny import App, ui, render
 app_ui = ui.page_fluid(
     ui.panel_title("📊 Soar Score Analyzer"),
     ui.input_text("symbol", "Enter the Ticker Symbol", value="AAPL"),
-    ui.input_text("api_key", "Enter Your Alpha Vantage API Key", password=True),
+    ui.input_text("api_key", "Enter Your Alpha Vantage API Key"),
     ui.input_action_button("analyze", "Analyze"),
     ui.output_text_verbatim("result")
 )
