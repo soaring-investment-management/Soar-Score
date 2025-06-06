@@ -1,0 +1,180 @@
+{
+  "Profitability": {
+    "Free Cash Flow": {
+      "low": 0,
+      "mid": 10,
+      "high": 20,
+      "description": "Wise investors seek consistent and increasing Free Cash Flow (FCF), ideally greater than 15%-20%. High FCF is a hallmark of strong financial health and reinvestment potential."
+    },
+    "Free Cash Flow Slope": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "A positive FCF slope indicates that a company is improving its ability to generate cash over time. Look for companies with consistent growth year-over-year."
+    },
+    "Owner's Earnings": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "This measures earnings after capital expenditures. Increasing Owner’s Earnings reflects true economic earnings. Favor values rising steadily over multiple years."
+    },
+    "Net Income Growth": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "Strong companies show consistent Net Income growth. Look for positive and accelerating earnings over time."
+    },
+    "Operating Margin": {
+      "low": 0,
+      "mid": 15,
+      "high": 25,
+      "description": "Operating Margin reveals how efficiently a company turns sales into profits. Great companies maintain >15% over long periods."
+    },
+    "Gross Margin": {
+      "low": 0,
+      "mid": 30,
+      "high": 50,
+      "description": "Gross Margin reflects core profitability before expenses. Look for margins >30% that remain stable or improve over time."
+    }
+  },
+  "Efficiency & Returns": {
+    "Return on Equity (ROE)": {
+      "low": 0,
+      "mid": 10,
+      "high": 20,
+      "description": "ROE measures return on shareholders’ equity. High-quality businesses often have ROEs >15%-20% consistently."
+    },
+    "Return on Assets (ROA)": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "ROA shows how effectively assets are used to generate profit. A strong ROA is typically >5%-10%."
+    },
+    "ROIC vs WACC": {
+      "low": 0,
+      "mid": 2,
+      "high": 5,
+      "description": "When ROIC exceeds WACC by a wide margin, the company is creating value. Target an ROIC-WACC spread of >2%-5%."
+    },
+    "FCF Margin": {
+      "low": 5,
+      "mid": 15,
+      "high": 20,
+      "description": "FCF Margin = Free Cash Flow / Revenue. World-class businesses often post FCF Margins above 15%."
+    }
+  },
+  "Capital Structure": {
+    "Debt-to-Equity Ratio": {
+      "low": 2,
+      "mid": 1,
+      "high": 0.5,
+      "description": "Lower Debt-to-Equity is better. Target companies with a ratio <1 and strong equity buffers."
+    },
+    "Interest Coverage Ratio": {
+      "low": 1,
+      "mid": 5,
+      "high": 10,
+      "description": "A higher Interest Coverage Ratio shows the firm can easily pay interest. Look for >5 to be safe."
+    },
+    "Net Debt to EBITDA": {
+      "low": 3,
+      "mid": 1,
+      "high": 0,
+      "description": "Low Net Debt/EBITDA indicates lower risk and more financial flexibility. The best companies are below 1."
+    }
+  },
+  "Shareholder Behavior": {
+    "Shares Outstanding Slope": {
+      "low": 0,
+      "mid": -1,
+      "high": -5,
+      "description": "Share count reductions (buybacks) benefit long-term shareholders. Seek negative slopes."
+    },
+    "Share Buybacks (Average $)": {
+      "low": 0,
+      "mid": 1,
+      "high": 5,
+      "description": "Aggressive but sensible share buybacks reflect confidence. Measured in billions."
+    }
+  },
+  "Growth & Sustainability": {
+    "Revenue Growth Rate": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "Sustainable growth is key. Seek >5% annual growth in revenue for quality businesses."
+    },
+    "EPS Growth Rate": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "Earnings per share (EPS) growth reflects underlying value creation. Top firms post >10% EPS growth."
+    },
+    "CapEx Trend (Positive Slope)": {
+      "low": -5,
+      "mid": 0,
+      "high": 5,
+      "description": "Upward CapEx trends signal strategic investment. Look for a steady increase aligned with growth."
+    },
+    "R&D as % of Revenue": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "R&D drives innovation. Strong companies often spend >5% of revenue on R&D (especially tech/healthcare)."
+    }
+  },
+  "Liquidity & Quality": {
+    "Current Ratio": {
+      "low": 1,
+      "mid": 2,
+      "high": 3,
+      "description": "The Current Ratio assesses short-term liquidity. A healthy range is typically 1.5 to 3."
+    },
+    "Quick Ratio": {
+      "low": 1,
+      "mid": 1.5,
+      "high": 2,
+      "description": "This ratio excludes inventory. Target companies that can pay short-term liabilities quickly."
+    },
+    "OCF to Liabilities": {
+      "low": 0.1,
+      "mid": 0.5,
+      "high": 1,
+      "description": "Operating Cash Flow vs Liabilities shows ability to meet obligations from operations. Look for >0.5."
+    }
+  },
+  "Cash Flow Quality": {
+    "Net Income vs OCF Ratio": {
+      "low": 0.5,
+      "mid": 1,
+      "high": 1.5,
+      "description": "High-quality earnings are backed by cash. The ratio should ideally be close to 1 or higher."
+    },
+    "Accrual Ratio": {
+      "low": 0.1,
+      "mid": 0.05,
+      "high": 0,
+      "description": "Lower accrual ratios are better. High accruals may signal earnings manipulation or poor cash flow."
+    }
+  },
+  "Consistency": {
+    "FCF Slope Stability": {
+      "low": 0,
+      "mid": 5,
+      "high": 10,
+      "description": "This measures how steady the FCF increase is over time. Positive, stable growth is rewarded."
+    },
+    "ROE Std Dev": {
+      "low": 10,
+      "mid": 5,
+      "high": 2,
+      "description": "Standard deviation of ROE shows consistency. Lower variability means steadier performance."
+    },
+    "EPS Z-Score": {
+      "low": 0,
+      "mid": 1,
+      "high": 2,
+      "description": "EPS Z-score helps detect outliers and earnings volatility. Higher Z-scores suggest steady performance."
+    }
+  }
+}
