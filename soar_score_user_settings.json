@@ -1,0 +1,39 @@
+{
+    "Profitability": {
+        "Free Cash Flow": {
+            "min_threshold": 0,
+            "target_threshold": "Increasing and Positive",
+            "description": "Free Cash Flow (FCF) should ideally be positive and increasing year-over-year. This demonstrates strong operational cash generation."
+        },
+        "FCF Slope": {
+            "min_threshold": 0,
+            "target_threshold": "Steep Positive Slope",
+            "description": "A steep, positive slope in FCF trendline indicates accelerating financial strength."
+        },
+        "FCF Margin": {
+            "min_threshold": 0.07,
+            "target_threshold": 0.2,
+            "description": "A high and consistent Free Cash Flow margin (>15%-20%) indicates a highly profitable and efficient business model."
+        },
+        "Owner's Earnings": {
+            "min_threshold": 0,
+            "target_threshold": "Positive and Growing",
+            "description": "This Buffett-style metric reflects true owner benefit and should trend upward over time."
+        },
+        "Net Income Growth": {
+            "min_threshold": 0,
+            "target_threshold": "Consistent Positive Growth",
+            "description": "Steady growth in net income reflects improving profitability and scalability."
+        },
+        "Operating Margin": {
+            "min_threshold": 0.1,
+            "target_threshold": 0.2,
+            "description": "Strong operating margins indicate effective cost management and pricing power."
+        },
+        "Gross Margin": {
+            "min_threshold": 0.3,
+            "target_threshold": 0.5,
+            "description": "High gross margins suggest competitive advantages or proprietary pricing power."
+        }
+    }
+}
